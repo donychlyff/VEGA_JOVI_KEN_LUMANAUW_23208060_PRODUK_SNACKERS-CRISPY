@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami - SNACKERS CRISPY🔥</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SNACKERS CRISPY🔥</h1>
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="tentang.html">Tentang Kami</a>
+            <a href="produk.html">Produk</a>
+            <a href="blog.html">Blog Edukasi</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+    </header>
+
+    <section class="kontak">
+        <h2>Kontak Kami</h2>
+        <img src="images/kontak.jpg" alt="Ilustrasi Kontak">
+        <p>Hubungi kami untuk informasi lebih lanjut tentang produk atau untuk pertanyaan lainnya.</p>
+        <form action="submit_kontak.php" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 SNACKERS CRISPY🔥. Semua hak cipta dilindungi.</p>
+    </footer>
+</body>
+</html>
